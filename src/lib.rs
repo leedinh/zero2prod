@@ -1,7 +1,7 @@
 //! src/lib.rs
 use actix_web::dev::Server;
 use actix_web::{web, App, HttpServer};
-use sqlx::{PgConnection, PgPool};
+use sqlx::PgPool;
 use std::net::TcpListener;
 
 pub mod configuration;
