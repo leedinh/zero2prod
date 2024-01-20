@@ -1,5 +1,6 @@
 use sqlx::PgPool;
-use zero2prod::{configuration::get_configuration, run};
+use zero2prod::configuration::get_configuration;
+use zero2prod::run;
 
 #[tokio::main]
 async fn main() -> std::io::Result<()> {
